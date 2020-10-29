@@ -1,11 +1,10 @@
-body{
-    background-color: black;
-        
-    
-}
+$font-stack: Helvetica, sans-serif;
+$primary-color: #f0f0f0f0;
 
-  h1{
-           text-align:center;
-           color:green;
-    } 
+body{
+    font: 100 $font-stack;
+    color: $primary-color;
+    text-align: center;
+          
+} 
  
